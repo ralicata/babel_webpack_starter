@@ -1,9 +1,9 @@
-export const person = {
+export const user = {
   name: "John Doe",
   location: "New York",
   age: 42
 };
 
-export const sayHello = person => {
-  return `Hello I'm ${person.name} from ${person.location}`;
+export const sayHello = user => {
+  return `Hello I'm ${user.name} from ${user.location}`;
 };
